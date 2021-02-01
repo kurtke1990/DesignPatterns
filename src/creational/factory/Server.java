@@ -1,4 +1,4 @@
-package example.factory;
+package creational.factory;
 
 public class Server extends Computer {
 	private String cpu;

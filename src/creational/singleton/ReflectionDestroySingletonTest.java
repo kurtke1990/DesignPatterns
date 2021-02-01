@@ -1,4 +1,4 @@
-package example.singleton;
+package creational.singleton;
 
 import java.lang.reflect.Constructor;
 

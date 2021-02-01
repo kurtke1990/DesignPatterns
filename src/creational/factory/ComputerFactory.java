@@ -1,7 +1,7 @@
-package example.factory;
+package creational.factory;
 
 public class ComputerFactory {
-	public static Computer getComputer(String computerType, String cpu, String ram, String hdd) {
+	public static Computer createComputer(String computerType, String cpu, String ram, String hdd) {
 		if (computerType.equalsIgnoreCase("pc")) {
 			return new PC(cpu, ram, hdd);
 		}

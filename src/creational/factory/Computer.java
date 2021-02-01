@@ -1,4 +1,4 @@
-package example.factory;
+package creational.factory;
 
 public abstract class Computer {
 
